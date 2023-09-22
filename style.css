@@ -1,0 +1,161 @@
+/* Adicione uma imagem de fundo para a área abaixo da tabela */
+.logo-site{
+    width: 270px; /* Largura da imagem de perfil */
+    height: 150px; /* Altura da imagem de perfil */   
+    margin-right: 10px; /* Espaçamento entre a imagem de perfil e o conteúdo do comentário */
+    position: absolute;
+    top: 7px;
+    left: 40px;
+}
+
+#carrinho {
+    background-color: #ebd407;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+}
+
+
+.container-Descricao {
+    width: 100%; /* Defina a largura do contêiner, pode ajustar conforme necessário */
+    height: 450px; /* Defina a altura do contêiner, pode ajustar conforme necessário */
+    color: #ffffff; /* Define a cor do texto para branco */
+    padding-left: 20px;
+}
+
+.background-Footer{
+    background-image: url('imagens/gamesBackground.jpg'); /* Substitua pelo caminho real da sua imagem */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+footer {
+    background-color: #171717;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+.texto-abaixo-pagina {
+    padding-left: 30px;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5); /* Ajuste o valor conforme necessário para o tamanho desejado */
+}
+
+.comentarios {
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
+    padding-left: 30px;
+}
+
+.comentario {
+    display: flex;
+    align-items: flex-start; /* Alinha os elementos verticalmente ao topo */
+    margin-bottom: 20px; /* Espaçamento entre os comentários */
+    color: #ffffff;
+}
+
+.imagem-perfil {
+    width: 50px; /* Largura da imagem de perfil */
+    height: 50px; /* Altura da imagem de perfil */
+    border-radius: 50%; /* Torna a imagem de perfil circular */
+    margin-right: 10px; /* Espaçamento entre a imagem de perfil e o conteúdo do comentário */
+}
+
+    /* Estilize o cabeçalho com uma imagem de fundo */
+    .cabecalho {
+        background-image: url('imagens/Mercado-geek-destacada.webp');
+        background-size: cover; /* Ajusta a imagem para cobrir todo o cabeçalho */
+     
+        padding: 40px; /* Adicione preenchimento para o espaçamento */
+        color: rgb(255, 255, 255); /* Define a cor do texto para legibilidade */
+    }
+    .titulo-site{
+        font-family: 'Carter One', cursive;
+        font-size: 40px;
+        text-align: center; /* Alinha o conteúdo ao centro */
+    }
+    body {
+        font-family: Montserrat, sans-serif;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        background-color: #ffffff;
+    }
+
+    h1 {
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        margin: 0;
+    }
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #333;
+        color: #fff;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    td input[type="checkbox"] {
+        display: block;
+        margin: 0 auto;
+    }
+
+    td[title="Produto Esgotado"] {
+        background-color: #f2f2f2;
+        color: #666;
+    }
+
+    hr {
+        border: 1px solid #ddd;
+    }
+
+    h2 {
+        margin-top: 20px;
+    }
+
+    p {
+        margin: 10px 0;
+    }
+
+    ul {
+        margin-left: 20px;
+    }
+
+    dl {
+        margin-left: 0px;
+    }
+
+    dt {
+        font-weight: bold;
+    }
+
+
+
